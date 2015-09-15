@@ -1,0 +1,53 @@
+body {
+  background: #FAAFBE; }
+
+.container {
+  width: 748px; }
+  .container .element {
+    border: 8px;
+    padding: 8px;
+    margin: 8px;
+    width: 700px; }
+
+a {
+  color: pink; }
+  a :hover {
+    color: red; }
+  a :visited {
+    color: orange; }
+  a :active {
+    color: green; }
+  a :link {
+    color: purple; }
+
+.blog {
+  background: pink; }
+
+.news {
+  background: pink; }
+
+.test {
+  background: "red"; }
+
+/*
+@for $i from 1 through 4 {}
+
+
+$i: 5;
+@while $i < 10 {
+	$i: $i + 1;
+}*/
+.button, .cta {
+  color: green;
+  font-weight: bold;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px; }
+
+.cta {
+  font-weight: bolder;
+  background-color: red;
+  color: white; }
+
+/*# sourceMappingURL=main.css.map */

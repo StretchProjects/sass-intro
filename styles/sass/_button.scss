@@ -1,0 +1,13 @@
+@import 'border-radius';
+.button {
+	color: green;
+	font-weight: bold;	
+	@include border-radius(8px);
+}
+
+.cta {
+	@extend .button;
+	font-weight: bolder;
+	background-color: red;
+	color: white;
+}
